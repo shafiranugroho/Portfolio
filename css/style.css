@@ -59,6 +59,43 @@ header a {
 
   }
 
+/* ABOUT2 */
+
+.about2 {
+  background-image: url("../images/me-3.jpeg");
+  background-size: cover;
+  width: 100%;
+  min-height: 60.0rem;
+  margin-top:2.0rem;
+  }
+
+.about2 .container {
+  margin-top: -14rem;
+}
+
+.about2 h6{
+  font-family: "Avenir";
+  margin-top: 2rem;
+  margin-bottom: 4.0rem;
+  font-size: 1.4rem;
+  margin-right: 5rem;
+    margin-left: 61rem;
+
+  }
+
+.about2 h1{
+  font-family: "Baskerville";
+  margin-top: 20.0rem;
+  padding-top: 15rem;
+  margin-bottom: 0.0rem;
+  margin-right: 5rem;
+  padding-left: 10rem;
+    margin-left: 50rem;
+
+  }
+
+
+
 /* BUTTONS */
 
 .btn {
@@ -118,7 +155,8 @@ header a {
   margin: 0 auto;
 }
 
-/* SAMPLE1 */
+
+  /* SAMPLE1 */
 
 .sample1 {
   background: #f2f2f2;
@@ -510,15 +548,62 @@ header a {
 
   }
 
+ .contact h5{
+  font-family: "Avenir";
+  font-size: 1.8rem;
+  font-weight: 600;
+  } 
 
-.contact img{
-	height: 13.0rem;
-	width: auto;
-	margin-right: 3.0rem;
-	margin-left: 3.0rem;
-	margin-top:3.0rem;
-  padding-bottom: 12.0rem;
+  .contact img{
+    padding-bottom: 10rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
+
+
+/* CONTACT2 */
+
+.contact2 {
+  padding-bottom: 2.0rem;
+  }
+
+ .contact2 h6{
+  font-family: "Avenir";
+  text-align: left;
+  color:#000000;
+  text-align: center;
+
+  }
+
+.contact2 h1{
+  font-family: "Baskerville";
+  color:#000000;
+  text-align: left;
+  margin-top:12.5rem;
+  text-align: center;
+
+  }
+
+ .contact2 h5{
+  font-family: "Avenir";
+  font-size: 1.8rem;
+  font-weight: 600;
+  } 
+
+
+.contact2 .container-text img{
+  height: 8.0rem;
+  width: auto;
+  margin-left: 44%;
+  margin-top:3.0rem;
+  padding-bottom: 3.0rem;
+  }
+
+.contact2 .container img {
+  height: 50rem;
+  width:auto;
+}
+
 
 
 /* FOOTER */
@@ -705,7 +790,6 @@ footer i {
 	margin-top: 5.0rem;
 	margin-bottom: 3.0rem;
   }
-
 
 /* FACTS */
 
@@ -937,5 +1021,6 @@ iframe {
 .record {
   margin-top: 6rem;
 }
+
 
 
