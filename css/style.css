@@ -671,6 +671,7 @@ footer i {
   width:auto; 
   }
 
+
  /* TITLE2 */
 
 .title2 {
@@ -790,6 +791,47 @@ footer i {
 	margin-top: 5.0rem;
 	margin-bottom: 3.0rem;
   }
+
+
+/* BLOG */
+
+.blog {
+  background-color: #ffffff;
+  margin-top:15.0rem;
+  padding-bottom:3.0rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  }
+
+.blog h7{
+  font-family: "Avenir";
+  word-spacing: 0.3rem;
+  font-size: 1.5rem;
+  color:  #00b3b3;
+  }
+
+.blog h6{
+  font-family: "Avenir";
+  line-height: 2;
+  word-spacing: 0.3rem;
+  margin-top:3.0rem;
+  font-size: 1.9rem;
+  }
+
+.blog h5{
+  font-family: "Avenir";
+  font-size: 2.3rem;
+  font-weight: 600;
+  }
+
+
+.blog img{
+  max-width: 30.0rem;
+  height: auto;
+  margin-top: 5.0rem;
+  margin-bottom: 3.0rem;
+  }
+
 
 /* FACTS */
 
