@@ -59,41 +59,32 @@ header a {
 
   }
 
-/* ABOUT2 */
+  /* ABOUTME */
 
-.about2 {
-  background-image: url("../images/me-3.jpeg");
-  background-size: cover;
-  width: 100%;
-  min-height: 60.0rem;
-  margin-top:2.0rem;
-  }
+  .aboutme {
+    background-image: url("../images/farb_1.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 60.0rem;
+    margin-top:2.0rem;
+    }
 
-.about2 .container {
-  margin-top: -14rem;
-}
+  .aboutme h6{
+  	font-family: "Avenir";
+  	margin-top: -11.0rem;
+  	margin-bottom: 4.0rem;
+  	font-size: 1.4rem;
+  	margin-right: 5rem;
+    margin-left: 0rem;
+    }
 
-.about2 h6{
-  font-family: "Avenir";
-  margin-top: 2rem;
-  margin-bottom: 4.0rem;
-  font-size: 1.4rem;
-  margin-right: 5rem;
-    margin-left: 61rem;
-
-  }
-
-.about2 h1{
-  font-family: "Baskerville";
-  margin-top: 20.0rem;
-  padding-top: 15rem;
-  margin-bottom: 0.0rem;
-  margin-right: 5rem;
-  padding-left: 10rem;
-    margin-left: 50rem;
-
-  }
-
+  .aboutme h1{
+  	font-family: "Baskerville";
+  	margin-top: 14.0rem;
+  	margin-bottom: 0.0rem;
+  	margin-right: 1rem;
+    margin-left: 5rem;
+    }
 
 
 /* BUTTONS */
@@ -103,7 +94,7 @@ header a {
   color:  #00b3b3;
   text-decoration: none;
   padding: 1.0rem 4.0rem;
-   margin-left:5rem;
+  margin-left:5rem;
   border: 0.1rem solid  #00b3b3;
   font-family:"Avenir";
 }
@@ -159,7 +150,7 @@ header a {
   /* SAMPLE1 */
 
 .sample1 {
-  background: #f2f2f2;
+  background: #F2F2F2;
   padding-top: 5.0rem;
   padding-bottom: 7.0rem;
   margin-bottom:7.0rem;
@@ -201,6 +192,51 @@ header a {
   border: 0.1rem solid  #00b3b3;
   font-family:"Avenir";
 
+}
+
+/* SAMPLE1NEW */
+
+.sample1new {
+  background: #F2F2F2;
+  padding-top: 5.0rem;
+  padding-bottom: 7.0rem;
+  margin-bottom:7.0rem;
+  }
+
+.sample1new h6{
+font-family: "Avenir";
+padding-bottom: 2.5rem;
+margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.sample1new h1{
+font-family: "Baskerville";
+}
+
+.sample1new h5 a{
+font-family: "Avenir";
+font-size: 1.5rem;
+text-decoration: none;
+color: #595959;
+}
+
+.sample1new img {
+ display:block;
+ max-height: 18.0rem;
+ max-width: auto;
+ display: block;
+ margin: 3.0rem auto;
+ float:middle;
+}
+
+.sample1new .btn {
+border-radius: 2.0px;
+color:  #00b3b3;
+text-decoration: none;
+padding: 10px 40px;
+border: 0.1rem solid  #00b3b3;
+font-family:"Avenir";
 }
 
 /* SAMPLE2 */
@@ -300,7 +336,7 @@ header a {
 .sample4 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
-  background-image: url("../images/GP3.png");
+  background-image: url("../images/glowsnake_5.png");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
@@ -312,14 +348,14 @@ header a {
   padding-bottom: 2.5rem;
   text-align: middle;
   color:#ffffff;
-    margin-right: 5rem;
+  margin-right: 5rem;
   margin-left: 5rem;
   }
 
 .sample4 h1{
   font-family: "Baskerville";
   color:#ffffff;
-    margin-right: 5rem;
+  margin-right: 5rem;
   margin-left: 5rem;
   }
 
@@ -346,7 +382,7 @@ header a {
 .sample5 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
-  background-image: url("../images/light11.png");
+  background-image: url("../images/sculpt_2.png");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
@@ -387,12 +423,150 @@ header a {
 
 }
 
+/* SAMPLEFARB*/
+
+.samplefarb {
+  padding-top: 8.0rem;
+  padding-bottom: 4.0rem;
+  background-image: url("../images/farb_3.png");
+  background-size: cover;
+  width: 100%;
+  height: 35.0rem;
+  margin-bottom:7.0rem;
+  }
+
+.samplefarb h6{
+  font-family: "Avenir";
+  padding-bottom: 2.5rem;
+  text-align: middle;
+  color:#ffffff;
+    margin-right: 5rem;
+  margin-left: 5rem;
+  }
+
+.samplefarb h1{
+  font-family: "Baskerville";
+  color:#ffffff;
+    margin-right: 5rem;
+  margin-left: 5rem;
+  }
+
+.samplefarb h5 a{
+  font-family: "Avenir";
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:#ffffff;
+
+  }
+
+.samplefarb .btn {
+  border-radius: 2.0px;
+  color:  #00b3b3;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 0.1rem solid  #00b3b3;
+  font-family:"Avenir";
+
+}
+
+/* SAMPLEFOREST*/
+
+.sampleforest {
+  padding-top: 8.0rem;
+  padding-bottom: 7.0rem;
+  background-image: url("../images/forest_11.png");
+  background-size: cover;
+  width: 100%;
+  height: 35.0rem;
+  margin-bottom:7.0rem;
+  }
+
+.sampleforest h6{
+  font-family: "Avenir";
+  padding-bottom: 2.5rem;
+  text-align: middle;
+  color:#ffffff;
+    margin-right: 5rem;
+  margin-left: 5rem;
+  }
+
+.sampleforest h1{
+  font-family: "Baskerville";
+  color:#ffffff;
+    margin-right: 5rem;
+  margin-left: 5rem;
+  }
+
+.sampleforest h5 a{
+  font-family: "Avenir";
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:#ffffff;
+
+  }
+
+.sampleforest .btn {
+  border-radius: 2.0px;
+  color:  #00b3b3;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 0.1rem solid  #00b3b3;
+  font-family:"Avenir";
+
+}
+
+/* SAMPLEPUSHANO */
+
+.samplepushano {
+  padding-top: 8.0rem;
+  padding-bottom: 7.0rem;
+  background-image: url("../images/pushano_3.png");
+  background-size: cover;
+  width: 100%;
+  height: 35.0rem;
+  margin-bottom:7.0rem;
+  }
+
+.samplepushano h6{
+  font-family: "Avenir";
+  padding-bottom: 2.5rem;
+  text-align: middle;
+  color:#ffffff;
+    margin-right: 5rem;
+  margin-left: 5rem;
+  }
+
+.samplepushano h1{
+  font-family: "Baskerville";
+  color:#ffffff;
+    margin-right: 5rem;
+  margin-left: 5rem;
+  }
+
+.samplepushano h5 a{
+  font-family: "Avenir";
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:#ffffff;
+
+  }
+
+.samplepushano .btn {
+  border-radius: 2.0px;
+  color:  #00b3b3;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 0.1rem solid  #00b3b3;
+  font-family:"Avenir";
+
+}
+
 /* SAMPLE6 */
 
 .sample6 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
-  background-image: url("../images/trans.png");
+  background-image: url("../images/trans_2.png");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
@@ -438,7 +612,7 @@ header a {
 .sample7 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
-  background-image: url("../images/pop.png");
+  background-image: url("../images/pop_3.png");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
@@ -484,7 +658,7 @@ header a {
 .sample8 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
-  background-image: url("../images/hdcover.png");
+  background-image: url("../images/hd_2.png");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
@@ -531,79 +705,11 @@ header a {
   padding-bottom: 2.0rem;
   }
 
- .contact h6{
-	font-family: "Avenir";
-	text-align: left;
-	color:#000000;
-	text-align: center;
-
-  }
-
-.contact h1{
-	font-family: "Baskerville";
-	color:#000000;
-	text-align: left;
-	margin-top:12.5rem;
-	text-align: center;
-
-  }
-
- .contact h5{
-  font-family: "Avenir";
-  font-size: 1.8rem;
-  font-weight: 600;
-  } 
-
   .contact img{
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     margin-right: 3rem;
     margin-left: 3rem;
   }
-
-
-/* CONTACT2 */
-
-.contact2 {
-  padding-bottom: 2.0rem;
-  }
-
- .contact2 h6{
-  font-family: "Avenir";
-  text-align: left;
-  color:#000000;
-  text-align: center;
-
-  }
-
-.contact2 h1{
-  font-family: "Baskerville";
-  color:#000000;
-  text-align: left;
-  margin-top:12.5rem;
-  text-align: center;
-
-  }
-
- .contact2 h5{
-  font-family: "Avenir";
-  font-size: 1.8rem;
-  font-weight: 600;
-  } 
-
-
-.contact2 .container-text img{
-  height: 8.0rem;
-  width: auto;
-  margin-left: 44%;
-  margin-top:3.0rem;
-  padding-bottom: 3.0rem;
-  }
-
-.contact2 .container img {
-  height: 50rem;
-  width:auto;
-}
-
 
 
 /* FOOTER */
@@ -668,7 +774,7 @@ footer i {
 
   .title img {
   height: 8.0rem;
-  width:auto; 
+  width:auto;
   }
 
 
@@ -689,7 +795,7 @@ footer i {
 
   .title2 img {
   height: 8.0rem;
-  width:auto; 
+  width:auto;
   }
 
  /* TITLE3 */
@@ -709,7 +815,7 @@ footer i {
 
   .title3 img {
   height: 8.0rem;
-  width:auto; 
+  width:auto;
   }
 
   /* IMAGEBANNER */
@@ -719,7 +825,7 @@ footer i {
 
  .imagebanner img {
   height: 15.0rem;
-  width:auto; 
+  width:auto;
   }
 
  /* IMAGEBANNER2 */
@@ -727,7 +833,7 @@ footer i {
 .imagebanner2 {
 	background-image: url("../images/SN_4.jpg");
   background-size: cover;
-  opacity: 0.7; 
+  opacity: 0.7;
   width: 100%;
   height: 60.0rem;
   margin-bottom:7.0rem;
@@ -751,6 +857,36 @@ footer i {
   margin-bottom:7.0rem;
 
   }
+
+  /* IMAGEBANNER4 */
+
+ .imagebanner4 {
+ 	background-image: url("../images/ZV_proto_1.png");
+   background-size: cover;
+   width: 100%;
+   height: 80.0rem;
+   margin-bottom:7.0rem;
+   }
+
+   /* IMAGEBANNERFARB */
+
+  .imagebannerfarb {
+  	background-image: url("../images/farb_5.png");
+    background-size: cover;
+    width: 100%;
+    height: 45.0rem;
+    margin-bottom:7.0rem;
+    }
+
+   /* IMAGEBANNERPUSHANO */
+
+  .imagebannerpushano {
+  	background-image: url("../images/pushano_1.png");
+    background-size: cover;
+    width: 100%;
+    height: 80.0rem;
+    margin-bottom:7.0rem;
+    }
 
 /* TEXT */
 
@@ -798,7 +934,6 @@ footer i {
 .blog {
   background-color: #ffffff;
   margin-top:15.0rem;
-  padding-bottom:3.0rem;
   margin-left: 5rem;
   margin-right: 5rem;
   }
@@ -826,9 +961,9 @@ footer i {
 
 
 .blog img{
-  max-width: 30.0rem;
+  max-width: 60.0rem;
   height: auto;
-  margin-top: 5.0rem;
+  margin-top: 3.0rem;
   margin-bottom: 3.0rem;
   }
 
@@ -838,7 +973,8 @@ footer i {
 .facts {
   background: #466368;
   background: linear-gradient(to right bottom,  #66ccff,  #b3ffff);
-  margin-top:5.0rem;
+  margin-top:3.0rem;
+  margin-bottom:5.0rem;
   }
 
  .facts h1{
@@ -875,8 +1011,6 @@ footer i {
   background-color: #ffffff;
   margin-top:7.0rem;
   padding-bottom:3.0rem;
- 
-
   }
 
   .art h6{
@@ -917,7 +1051,7 @@ footer i {
   .artgrid h5 {
   color: #ffffff;
   font-family: "Avenir";
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
   margin-top:24.5rem;
   padding-bottom:3.0rem;
   }
@@ -939,7 +1073,7 @@ footer i {
     height:90%; /* = 100% - 2*5% padding */
     width:90%; /* = 100% - 2*5% padding */
     padding: 5%;
-    
+
 }
 .table{
     display:table;
@@ -984,6 +1118,30 @@ footer i {
 
 .img7{
     background-image: url("../images/gs2.png");
+}
+
+.img8{
+    background-image: url("../images/pushano_8.png");
+}
+
+.img9{
+    background-image: url("../images/pushano_9.png");
+}
+
+.img10{
+    background-image: url("../images/pushano_10.png");
+}
+
+.img11{
+    background-image: url("../images/crowther_3.jpg");
+}
+
+.img12{
+    background-image: url("../images/crowther_4.jpg");
+}
+
+.img13{
+    background-image: url("../images/crowther_5.jpg");
 }
 
 /* MOBILE */
@@ -1063,5 +1221,3 @@ iframe {
 .record {
   margin-top: 6rem;
 }
-
-

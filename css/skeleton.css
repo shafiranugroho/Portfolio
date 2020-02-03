@@ -55,11 +55,179 @@
   padding: 0 20px;
   box-sizing: border-box; }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
+/* For devices larger than 320px */
+@media (min-width: 320px) {
+
+  .container-text h5 {
+    margin-top:5.0rem;
+  }
+
+  .imagebanner3 {
+  	background-image: url("../images/SN_exhibition-1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 20.0rem;
+    margin-bottom:7.0rem;
+
+    }
+
+  .blog img {
+    width: 25.0rem;
+    height: auto;
+  }
+
+  .title3 h1 {
+    font-size: 3.0rem;
+    }
+
+  .title3 {
+    padding-bottom: 1.0rem;
+    padding-top: 2.0rem;
+  }
+
+  .btn2 {
+    border-radius: 0.2rem;
+    color:  #00b3b3;
+    text-decoration: none;
+    padding: 1.0rem 2.0rem;
+    border: 0.1rem solid  #00b3b3;
+    font-family:"Avenir";
+  }
+
+  .text {
+  background-color: #ffffff;
+  margin-top:1.0rem;
+  }
+
+.text h1 {
+  margin-top:15.0rem;
+}
+
+.text img{
+  max-width: 25.0rem;
+  height: auto;
+  margin-top: 1.0rem;
+  }
+
+  .title2 {
+    background-color: #ffffff;
+    padding-bottom: 2.0rem;
+    padding-top: 2.0rem;
+    }
+
+  .samplepushano {
+    min-height: 40.0rem;
+  }
+
+  .sampleforest {
+    min-height: 40.0rem;
+  }
+
+  .samplefarb {
+    min-height: 38.0rem;
+  }
+
+  .imagebannerpushano {
+   background-image: url("../images/pushano_1.png");
+    background-size: cover;
+    width: 100%;
+    height: 25.0rem;
+    margin-bottom:7.0rem;
+    }
+
+    .imagebannerfarb {
+     background-image: url("../images/farb_5.png");
+      background-size: 100%;
+      width: 100%;
+      height: 15.0rem;
+      margin-bottom:7.0rem;
+      }
+
+  .record video {
+    height: auto;
+    width: 25.0rem;
+  }
+
+  .art {
+  width: 70%;
+  background-color: #ffffff;
+  margin-top:7.0rem;
+  padding-bottom:3.0rem;
+  margin: auto;
+  }
+
+  .art h6 {
+    font-size: 1.2rem;
+  }
+
+  .art h5 {
+    margin-top: 5.0rem;
+    font-size: 1.6rem;
+  }
+
+.art img{
+  width:25.0rem;
+  height:auto;
+  margin-top: 3.0rem;
+  margin-bottom: 1.0rem;
+  }
+
+  .imagebanner4 {
+   background-image: url("../images/ZV_proto_1.png");
+    background-size: cover;
+    width: 100%;
+    height: 25.0rem;
+    margin-bottom:7.0rem;
+    }
+
   .container {
-    width: 85%;
+    width: 100%;
     padding: 0; }
+
+  .about {
+    margin-top: 5.0rem;
+    padding-top: 18.0rem;
+    min-height: 54.0rem;
+    background-image: url("../images/me-8.png");
+    background-size: cover;
+  }
+
+  .aboutme {
+    margin-top: 5.0rem;
+    padding-top: 18.0rem;
+    min-height: 54.0rem;
+    background-image: url("../images/me-7.png");
+    background-size: cover;
+  }
+
+
+
+  .process img {
+   display:block;
+   max-height: 25.0rem;
+   width: auto;
+   margin-top:5.0rem;
+   display: block;
+ }
+
+  .logo-position {
+     padding-top: 3rem;
+     padding-left: 17.0rem;
+ }
+
+ .contact .container {
+   margin: auto;
+   max-width: 26.0rem;
+   max-height: 20.0rem;
+ }
+
+ .contact img{
+   height: 7.0rem;
+   width: auto;
+   margin-right: 0.1rem;
+   margin-left: 0.1rem;
+   margin-top:2.0rem;
+   }
 
   .sample1 h1 {
     text-align:center;
@@ -68,16 +236,162 @@
     text-align:center;
   }
   .sample1 .btn {
-  margin-left: 9.0rem;
+    margin-left: 11.2rem;
   }
 
   .sample1 h5 {
     text-align:center;
   }
+
+  .sample1new img {
+  display:block;
+  max-height: 40.0rem;
+  max-width: auto;
+  display: block;
+  margin: -3.0rem auto 1.0rem;
+  float:middle;
+  }
+
+  .sample1new {
+  background: #F2F2F2;
+  padding-top: 5.0rem;
+  padding-bottom: 7.0rem;
+  margin-bottom:7.0rem;
+
+  }
+
+  .sample1new h1 {
+    text-align:center;
+  }
+  .sample1new h6 {
+    text-align:center;
+  }
+  .sample1new .btn {
+    margin-left: 11.2rem;
+  }
+
+  .sample1new h5 {
+    text-align:center;
+  }
+
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
+
+  .imagebanner3 {
+  	background-image: url("../images/SN_exhibition-1.jpg");
+    background-size: 142.0rem;
+    width: 100%;
+    height: 40.0rem;
+    margin-bottom:7.0rem;
+
+    }
+
+  .about2 {
+    background-image: url("../images/me-3.jpeg");
+    background-size: cover;
+    width: 100%;
+    min-height: 60.0rem;
+    margin-top:2.0rem;
+    }
+
+  .about2 .container {
+    margin-top: -14rem;
+  }
+
+  .about2 h6{
+    font-family: "Avenir";
+    margin-top: 2rem;
+    margin-bottom: 4.0rem;
+    font-size: 1.4rem;
+    margin-right: 5rem;
+      margin-left: 61rem;
+
+    }
+
+  .about2 h1{
+    font-family: "Baskerville";
+    margin-top: 20.0rem;
+    padding-top: 15rem;
+    margin-bottom: 0.0rem;
+    margin-right: 5rem;
+    padding-left: 10rem;
+      margin-left: 50rem;
+
+    }
+
+  .title3 {
+    background-color: #ffffff;
+    padding-bottom: 8.0rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    }
+
+   .title3 h1 {
+    font-size: 10.0rem;
+    font-family: "Baskerville";
+    margin-top: 14.0rem;
+    }
+
+    .title3 img {
+    height: 8.0rem;
+    width:auto;
+    }
+
+  .imagebannerpushano {
+   background-image: url("../images/pushano_1.png");
+    background-size: cover;
+    width: 100%;
+    height: 50.0rem;
+    margin-bottom:7.0rem;
+    }
+
+    .imagebannerfarb {
+     background-image: url("../images/farb_5.png");
+      background-size: cover;
+      width: 100%;
+      height: 50.0rem;
+      margin-bottom:7.0rem;
+      }
+
+  .record video {
+    height: 50.0rem;
+  }
+
+  .imagebanner4 {
+   background-image: url("../images/ZV_proto_1.png");
+    background-size: cover;
+    width: 100%;
+    height: 80.0rem;
+    margin-bottom:7.0rem;
+    }
+
+    .sample1new h1 {
+      margin-left: 10.0rem;
+      text-align:left;
+    }
+    .sample1new h6 {
+      margin-left: 10.0rem;
+      text-align:left;
+    }
+    .sample1new .btn {
+      margin-left: 10.0rem;
+    }
+
+    .sample1new h5 {
+      margin-left: 10.0rem;
+      text-align:left;
+    }
+
+    .sample1new {
+    background: #F2F2F2;
+    padding-top: 5.0rem;
+    padding-bottom: 3.0rem;
+    margin-bottom:7.0rem;
+
+    }
+
  .process img {
   display:block;
   max-height: 25.0rem;
@@ -91,9 +405,10 @@
   background-image: url("../images/aboutme.jpg");
   background-size: cover;
   width: 100%;
-  min-height: 60.0rem;
+  min-height: 58.0rem;
   padding-bottom:1.0rem;
   margin-top:5.5rem;
+  padding-top: 0.0rem;
   }
 
 .about h6{
@@ -109,9 +424,33 @@
   margin-bottom: 0.0rem;
   }
 
+  .aboutme {
+    background-image: url("../images/me-5.png");
+    background-size: cover;
+    width: 100%;
+    min-height: 58.0rem;
+    padding-bottom:1.0rem;
+    margin-top:5.5rem;
+    padding-top: 0.0rem;
+
+    }
+
+  .aboutme h6{
+    font-family: "Avenir";
+    margin-top: -11.0rem;
+    margin-bottom: 4.0rem;
+    font-size: 1.8rem;
+    }
+
+  .aboutme h1{
+    font-family: "Baskerville";
+    margin-top: 14.0rem;
+    margin-bottom: 0.0rem;
+    }
+
 .imagebanner img {
   height: 40.0rem;
-  width:auto; 
+  width:auto;
   }
 
 .facts {
@@ -214,7 +553,7 @@
 
   .title img {
   height: 15.0rem;
-  width:auto; 
+  width:auto;
   }
 
 .title2 h1 {
@@ -225,13 +564,24 @@
 
 .title2 img {
   height: 15.0rem;
-  width:auto; 
+  width:auto;
   }
 
 .title2 {
   background-color: #ffffff;
-  padding-bottom: 8.0rem;
+  padding-bottom: 2.0rem;
   }
+
+
+  .title3 img {
+    height: 15.0rem;
+    width:auto;
+    }
+
+  .title3 {
+    background-color: #ffffff;
+    padding-bottom: 2.0rem;
+    }
 
 
 .choose {
@@ -245,6 +595,12 @@
   height: 50.0rem;
   }
 
+  .contact .container {
+    max-width: 100%;
+    max-height: 50.0rem;
+    margin: auto;
+  }
+
 .contact img{
   height: 13.0rem;
   width: auto;
@@ -255,13 +611,83 @@
 
 .sample2 {
   padding-top: 8.0rem;
-  padding-bottom: 7.0rem;
+  padding-bottom: 4.0rem;
   background-image: url("../images/artsample.jpg");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
   margin-bottom:7.0rem;
   }
+
+  .samplepushano {
+    padding-top: 8.0rem;
+    padding-bottom: 2.0rem;
+    background-image: url("../images/pushano_2.png");
+    background-size: cover;
+    width: 100%;
+    height: 35.0rem;
+    margin-bottom:7.0rem;
+    }
+
+    .sampleforest {
+      padding-top: 7.0rem;
+      padding-bottom: 0.0rem;
+      background-image: url("../images/forest_12.png");
+      background-size: cover;
+      width: 100%;
+      height: 35.0rem;
+      margin-bottom:7.0rem;
+      }
+
+      .samplefarb {
+        padding-top: 7.0rem;
+        padding-bottom: 0.0rem;
+        background-image: url("../images/farb_2.png");
+        background-size: cover;
+        width: 100%;
+        height: 35.0rem;
+        margin-bottom:7.0rem;
+        }
+
+  .sample6 {
+    padding-top: 8.0rem;
+    padding-bottom: 3.0rem;
+    background-image: url("../images/trans.png");
+    background-size: cover;
+    width: 100%;
+    height: 35.0rem;
+    margin-bottom:7.0rem;
+    }
+
+    .sample8 {
+      padding-top: 8.0rem;
+      padding-bottom: 4.0rem;
+      background-image: url("../images/hdcover.png");
+      background-size: cover;
+      width: 100%;
+      height: 35.0rem;
+      margin-bottom:7.0rem;
+      }
+
+      .sample7 {
+        padding-top: 8.0rem;
+        padding-bottom: 4.0rem;
+        background-image: url("../images/pop.png");
+        background-size: cover;
+        width: 100%;
+        height: 35.0rem;
+        margin-bottom:7.0rem;
+        }
+
+        .sample5 {
+          padding-top: 8.0rem;
+          padding-bottom: 2.0rem;
+          background-image: url("../images/light11.png");
+          background-size: cover;
+          width: 100%;
+          height: 35.0rem;
+          margin-bottom:7.0rem;
+          }
 
 .sample3 {
   padding-top: 8.0rem;
@@ -272,6 +698,16 @@
   height: 35.0rem;
   margin-bottom:7.0rem;
   }
+
+  .sample4 {
+    padding-top: 8.0rem;
+    padding-bottom: 4.0rem;
+    background-image: url("../images/GP3.png");
+    background-size: cover;
+    width: 100%;
+    height: 35.0rem;
+    margin-bottom:7.0rem;
+    }
 
 .sample1 {
   background: #f2f2f2;
@@ -306,8 +742,6 @@
   margin-top:7.0rem;
   padding-bottom:3.0rem;
   margin-left: 20.0rem;
- 
-
   }
 
   .art h6{
@@ -326,6 +760,7 @@
 
 .art img{
   height:35.0rem;
+  width:auto;
   margin-top: 17.0rem;
   margin-bottom: 3.0rem;
   }
@@ -728,5 +1163,3 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
-
