@@ -58,10 +58,6 @@
 /* For devices larger than 320px */
 @media (min-width: 320px) {
 
-  .container-text h5 {
-    margin-top:5.0rem;
-  }
-
   .imagebanner3 {
   	background-image: url("../images/SN_exhibition-1.jpg");
     background-size: cover;
