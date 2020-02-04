@@ -711,6 +711,39 @@ font-family:"Avenir";
     margin-left: 3rem;
   }
 
+  * CONTACT2 */
+
+  .contact2 {
+    padding-bottom: 2.0rem;
+    }
+
+   .contact2 h6{
+    font-family: "Avenir";
+    text-align: left;
+    color:#000000;
+    text-align: center;
+
+    }
+
+   .contact2 h5{
+    font-family: "Avenir";
+    font-size: 1.8rem;
+    font-weight: 600;
+    }
+
+
+  .contact2 .container-text img{
+    height: 8.0rem;
+    width: auto;
+    margin-top:3.0rem;
+    }
+
+  .contact2 .container img {
+    height: 40rem;
+    width:auto;
+    margin-top:10.0rem;
+  }
+
 
 /* FOOTER */
 
