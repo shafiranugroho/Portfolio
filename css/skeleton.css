@@ -279,6 +279,13 @@
 /* For devices larger than 550px */
 @media (min-width: 550px) {
 
+  .blog img{
+    min-width: 60.0rem;
+    height: auto;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+    }
+
   .imagebanner3 {
   	background-image: url("../images/SN_exhibition-1.jpg");
     background-size: 142.0rem;
